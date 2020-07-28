@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A Day At The Race", "A Day At The Race\A Day At The Race.csproj", "{45F87B5D-1AFF-4B92-9889-A310F7E6CCD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventPlanner", "..\eventplanner\eventPlanner\eventPlanner.csproj", "{C3CFE64F-1542-4710-804A-0E97423111BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmer", "farmer\Farmer\Farmer.csproj", "{A2A21A5F-27FB-4E26-B1AC-48BBA11E2981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyPlanner2", "PartyPlanner2\PartyPlanner2\PartyPlanner2.csproj", "{EE08BCCD-56AC-4FD3-80DF-D25B8515C5C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,23 @@ Global
 		{45F87B5D-1AFF-4B92-9889-A310F7E6CCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45F87B5D-1AFF-4B92-9889-A310F7E6CCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45F87B5D-1AFF-4B92-9889-A310F7E6CCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CFE64F-1542-4710-804A-0E97423111BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CFE64F-1542-4710-804A-0E97423111BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CFE64F-1542-4710-804A-0E97423111BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CFE64F-1542-4710-804A-0E97423111BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A21A5F-27FB-4E26-B1AC-48BBA11E2981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A21A5F-27FB-4E26-B1AC-48BBA11E2981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A21A5F-27FB-4E26-B1AC-48BBA11E2981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A21A5F-27FB-4E26-B1AC-48BBA11E2981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE08BCCD-56AC-4FD3-80DF-D25B8515C5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE08BCCD-56AC-4FD3-80DF-D25B8515C5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE08BCCD-56AC-4FD3-80DF-D25B8515C5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE08BCCD-56AC-4FD3-80DF-D25B8515C5C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E62EDAA0-68B8-4C03-A946-6D1A9D90B201}
 	EndGlobalSection
 EndGlobal
